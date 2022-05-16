@@ -7854,12 +7854,12 @@ h1, h2, h3, h4, h5,
       display: block;
       margin-bottom: 15px; }
   .staff .img {
-    width: 110px;
-    height: 105px;
+    width: 140px;
+    height: 200px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    border-radius: 50%; }
+    border-radius: 9%; }
 
 .ftco-social a {
   width: 30px;
