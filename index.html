@@ -84,12 +84,13 @@
     					<div class="full-wrap d-flex ftco-animate">
     						<div class="one-third order-last p-5">
     							<h3>¿Qué estás buscando?</h3>
-    							<form action="#" class="course-search-form">
+    							<form name="b-search" action="http://search.blogger.com/" class="course-search-form">
 		                <div class="form-group d-flex">
-		                  <input type="text" class="form-control" placeholder="Buscador">
-		                  <input type="submit" value="Buscar" class="submit">
+		                  <input id="buscar" id="b_query" name="as_q" type="text" class="form-control" placeholder="Buscador"><input type="hidden" name="ie" value="UTF-8" /><input type="hidden" name="ui" value="blg" /><input type="hidden" name="bl_url" value="http://localhost/ProgramacionWeb/Pagina-OGCU" />
+		                  <input id="btn" type="submit" value="Buscar" class="submit" alt="Search This Blog" onclick_fckprotectedatt="document.forms['b-search'].bl_url.value='http://localhost/ProgramacionWeb/Pagina-OGCU'"/>
 		                </div>
 		              </form>
+
     						</div>
     						<div class="one-forth order-first img" style="background-image: url(images/image_1.jpg);"></div>
     					</div>
@@ -474,6 +475,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+   
   </body>
 </html>
